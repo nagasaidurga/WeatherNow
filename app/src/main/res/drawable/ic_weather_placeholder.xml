@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder icon for weather images while loading -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Sun circle -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M12,7c2.76,0 5,2.24 5,5s-2.24,5 -5,5 -5,-2.24 -5,-5 2.24,-5 5,-5z"/>
+    
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M11,1h2v3h-2z"/>
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M11,20h2v3h-2z"/>
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M1,11h3v2h-3z"/>
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M20,11h3v2h-3z"/>
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M18.36,4.22l1.42,1.42 -2.12,2.12 -1.42,-1.42z"/>
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M6.34,16.24l1.42,1.42 -2.12,2.12 -1.42,-1.42z"/>
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M4.22,5.64l2.12,2.12 -1.42,1.42 -2.12,-2.12z"/>
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M16.24,17.66l2.12,2.12 -1.42,1.42 -2.12,-2.12z"/>
+</vector>
+

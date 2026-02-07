@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network security configuration for the Weather Application.
+    
+    This file specifies network security settings including:
+    - Trust anchors for SSL certificates
+    - Cleartext traffic policy (HTTP vs HTTPS)
+    - Domain-specific overrides
+    
+    Note: OpenWeatherMap API uses HTTPS, so cleartext is not needed for API calls.
+    The icon URLs also support HTTPS.
+-->
+<network-security-config>
+    <!-- Base configuration - deny cleartext traffic by default for security -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- 
+        Domain-specific configurations can be added here if needed.
+        Example for allowing specific domains:
+        
+        <domain-config cleartextTrafficPermitted="false">
+            <domain includeSubdomains="true">api.openweathermap.org</domain>
+            <domain includeSubdomains="true">openweathermap.org</domain>
+        </domain-config>
+    -->
+</network-security-config>
+

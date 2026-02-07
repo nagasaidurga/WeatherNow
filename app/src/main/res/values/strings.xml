@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Weather</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Enter US city name…</string>
+    <string name="search_clear">Clear search</string>
+    <string name="use_current_location">Use current location</string>
+    
+    <!-- Weather display -->
+    <string name="feels_like">Feels like %s</string>
+    <string name="high_temp">H: %s</string>
+    <string name="low_temp">L: %s</string>
+    
+    <!-- Weather details -->
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="visibility">Visibility</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="cloudiness">Cloudiness</string>
+    <string name="last_updated">Updated</string>
+    
+    <!-- States -->
+    <string name="loading">Fetching weather data…</string>
+    <string name="try_again">Try Again</string>
+    <string name="search_for_city">Search for a US City</string>
+    <string name="search_prompt">Enter a city name to see the current weather conditions</string>
+    
+    <!-- Location permission -->
+    <string name="enable_location">Enable Location</string>
+    <string name="location_permission_rationale">Allow location access to automatically show weather for your current location</string>
+    <string name="skip_for_now">Skip for now</string>
+    
+    <!-- Errors -->
+    <string name="error_empty_city">Please enter a city name</string>
+    <string name="error_city_not_found">City not found. Please check the city name and try again.</string>
+    <string name="error_network">Unable to fetch weather data. Please check your internet connection.</string>
+    <string name="error_location">Unable to get location. Please enable location services.</string>
+</resources>
