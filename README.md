@@ -1,5 +1,7 @@
 🌦️ WeatherNow – Android MVVM Weather App
 
+[https://github.com/user-attachments/assets/aacf3108-5be5-4286-9762-7e600f89e7e4](https://github.com/user-attachments/assets/11290fcc-8145-42f5-adf9-3f54f3ad925d)
+
 WeatherNow is a production-style Android weather application built to demonstrate modern Android architecture, clean code principles, and best practices in networking, state management, and runtime permissions handling.
 
 The app allows users to search for a US city, view real-time weather conditions, automatically load their last searched city, and fetch weather using device location when permission is granted.
@@ -88,3 +90,4 @@ Navigation	Jetpack Navigation
 Image Loading	Coil / Glide
 Local Storage	DataStore / SharedPreferences
 Permissions	Android Runtime Permissions API
+
